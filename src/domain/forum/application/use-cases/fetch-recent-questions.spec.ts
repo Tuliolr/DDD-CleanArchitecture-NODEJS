@@ -24,9 +24,9 @@ describe('Fetch Recent Questions', () => {
        })
 
        expect(questions).toEqual([
-        expect.objectContaining({createAt: new Date(2022, 0, 23)}),
-        expect.objectContaining({createAt: new Date(2022, 0, 20)}),
-        expect.objectContaining({createAt: new Date(2022, 0, 18)}),
+        expect.objectContaining({createdAt: new Date(2022, 0, 23)}),
+        expect.objectContaining({createdAt: new Date(2022, 0, 20)}),
+        expect.objectContaining({createdAt: new Date(2022, 0, 18)}),
        ])
         
         
